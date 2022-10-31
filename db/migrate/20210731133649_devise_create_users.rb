@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # rubocop: disable Metrics/AbcSize, Metrics/MethodLength
-class DeviseCreateUsers < ActiveRecord::Migration[6.1]
+class DeviseCreateUsers < ActiveRecord::Migration[7.0]
   def change
     create_table :users do |t|
       ## Database authenticatable
